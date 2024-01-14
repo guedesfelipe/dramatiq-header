@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dramatiq-header"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Guedes <contatofelipeguedes@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dramatiq = "^1.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
