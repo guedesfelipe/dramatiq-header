@@ -4,8 +4,8 @@ import contextvars
 
 
 class HeadersMessage(Middleware):
-    """Middleware that exposes header via options message via a thread-local
-    variable.
+    """Expose headers via an options message through a thread-local
+    variable in middleware.
 
     """
 
