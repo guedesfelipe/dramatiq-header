@@ -17,7 +17,7 @@ class HeadersMessage(Middleware):
 
     @classmethod
     def get_headers(cls):
-        """Get the message that triggered the current actor.  Messages
+        """Get the message that triggered the current actor. Messages
         are thread local so this returns ``None`` when called outside
         of actor code.
         """
