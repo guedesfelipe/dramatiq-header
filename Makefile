@@ -10,6 +10,16 @@ install:
 install-dev:
 	@poetry install -n
 
+#* Fromatters
+.PHONY: format
+format:
+	@poetry run ruff format .
+
+#* Linting
+.PHONY: lint
+lint:
+	@poetry run ruff check .
+
 #* Test
 .PHONY: test
 test:
