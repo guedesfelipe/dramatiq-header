@@ -2,16 +2,15 @@ from dramatiq.middleware import Middleware
 import contextvars
 
 
-
 class HeadersMessage(Middleware):
     """Expose headers via an options message through a thread-local
     variable in middleware.
 
     """
 
-    _HEADERS: contextvars.ContextVar[
-        dict
-    ] = contextvars.ContextVar("_HEADERS", default={})
+    _HEADERS: contextvars.ContextVar[dict] = contextvars.ContextVar(
+        '_HEADERS', default={}
+    )
 
     def __init__(self, header_name: str | None = None) -> None:
         self.header_name = header_name
