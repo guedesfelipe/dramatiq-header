@@ -74,6 +74,10 @@ if __name__ == '__main__':
     send_message('test message')
 ```
 
+## Output
+![image](https://github.com/guedesfelipe/dramatiq-header/assets/25853920/bc5bd345-b694-4553-8daa-65172ac6b384)
+
+
 > [!IMPORTANT]  
 > This library does NOT transmit the header using the RabbitMQ header property; rather, it sends the header as metadata within the message that Dramatiq already dispatches.
 
