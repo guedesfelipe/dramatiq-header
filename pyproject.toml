@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "dramatiq-header"
 version = "0.1.0"
-description = ""
+description = "Expose dramatiq headers via an options message through a thread-local variable in middleware."
 authors = ["Felipe Guedes <contatofelipeguedes@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/guedesfelipe/dramatiq-header"
+homepage = "https://github.com/guedesfelipe/dramatiq-header"
+documentation = "https://github.com/guedesfelipe/dramatiq-header"
+keywords = ["dramatiq", "header", "dramatiq header", "rabbitmq"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
