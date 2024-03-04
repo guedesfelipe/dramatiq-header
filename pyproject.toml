@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dramatiq-header"
-version = "0.1.1"
+version = "0.1.2"
 description = "Expose dramatiq headers via an options message through a thread-local variable in middleware."
 authors = ["Felipe Guedes <contatofelipeguedes@gmail.com>"]
 readme = "README.md"
