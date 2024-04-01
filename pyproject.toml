@@ -14,7 +14,7 @@ python = "^3.10"
 dramatiq = "^1.15.0"
 
 [tool.poetry.group.test.dependencies]
-pytest-cov = "^4.1.0"
+pytest-cov = ">=4.1,<6.0"
 pytest = ">=7.4.4,<9.0.0"
 
 [tool.poetry.group.dev.dependencies]
